@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+   <!--
+   This is a demo of:
+   
+   * Mapbox and jQuery
+   * jQuery AJAX .load( 'your-html' )
+   
+   Pros and cons:
+   
+   * Pro: it's easy and gives a modular code.
+   * Con: SEO engines cannot crawl your AJAX includes.
+   
+   So e.g. a PHP include is often the better solution.
+   -->
+    <meta charset="UTF-8">
+    <title></title>
+    
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+    
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+    <link href='css/flying.css' rel='stylesheet' />
+    
+    
+</head>
+<body>
+    <section class="farve"> 
+    <img class="disneyklassik" src="images/walt-disney.png">
+        </section> 
+    <section>        
+           <nav>
+                <button id="konge">Løvernes Konge</button> <br>
+                <button id="herkules">Herkules</button> <br>
+                <button id="moana">Vaiana</button> <br>
+                <button id="jungle">Junglebogen</button> <br>
+                <button id="aladdin">Aladdin</button> <br>
+                <button id="tarzan">Tarzan</button>
+                
+                <!-- tekst indlæses her -->
+                <div id="tekst"></div>   
+            </nav>
+    
+           <!-- kort indlæses her -->
+            <div id="map"></div>
+    </section>
+    
+
+    
+    <!-- jQuery -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    
+    <!-- Mapbox -->
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'> </script>  
+
+    <!-- interactive map -->
+    <script src="js/flying.js"></script>
+
+</body>
+</html>

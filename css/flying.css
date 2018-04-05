@@ -1,0 +1,100 @@
+@font-face {
+    font-family: disney;
+    src: url(../fonts/disney/newwaltdisney.ttf);
+}
+
+
+body {
+    color: black;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.farve {
+    background-color: rgb(17, 59, 207, 0.7);
+    width: 110%;
+    margin-left: -2%;
+    margin-top: -1%;
+    
+}
+#map {
+    position: relative;
+    width: 70%;
+    height: 500px;
+    float: left;
+    margin-top: 2%;
+}
+
+
+nav {
+    position: relative;
+    width: 25%;
+    float: left;
+    background-color: white;
+    margin-left: 1.4%;
+    margin-top: 2%;
+    
+}
+    
+button:hover {
+    background-color: darkgray;
+    display: block;
+    width: 80%;
+}
+
+button {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    height: 35px;
+    width: 80%;
+    display: block;
+    margin-left: 8%;
+    font-family: disney;
+    font-size: 1.7em; 
+}
+
+.rykke {
+    margin-left: 8%;
+    font-family: arial, sans-serif;
+    width: 80%;
+    line-height: 22px;
+}
+
+#konge {
+    background-color: rgb(255, 204, 0, 0.6);
+}
+
+#herkules {
+    background-color: rgb(255, 99, 0, 0.6);
+}
+
+#moana {
+    background-color: rgb(33, 136, 201, 0.6);
+}
+
+#aladdin {
+    background-color: rgb(154, 122, 199, 0.6);
+}
+
+#tarzan {
+    background-color: rgb(255, 167, 85, 0.6);
+}
+
+#jungle {
+    background-color: rgb(231, 0, 0, 0.6);
+}
+
+.disneyklassik {
+    width: 35%;
+    margin-left: 30%;
+    margin-bottom: 0.5%;
+    margin-top: 1%;
+}
+
+h3 {
+    font-family: disney;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-size: 2em;
+}
